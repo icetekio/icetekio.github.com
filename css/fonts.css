@@ -114,5 +114,5 @@
   
 @font-face {font-family: 'Epura-Bold';src: url('../static/fonts/3B1CDA_F_0.eot');src: url('../static/fonts/3B1CDA_F_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_F_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_F_0.woff') format('woff'),url('../static/fonts/3B1CDA_F_0.ttf') format('truetype');}
 
-@font-face {font-family: icetek;src: url("../static/fonts/iceGX.ttf")}
+@font-face {font-family: icetek;src: url("../static/fonts/iceGX.ttf"); font-display: block;}
  
