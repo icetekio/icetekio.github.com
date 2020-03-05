@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
           content="Innovation driven and quality focused engineering team to help you in your most challenging tasks. Contact us on hello@icetek.io to learn more!">
+    <meta name="theme-color" content="#53E7FF">
+
+    <link rel="canonical" href="https://www.icetek.io/">
 
     <link rel="apple-touch-icon" sizes="57x57" href="static/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="static/images/favicon/apple-icon-60x60.png">
@@ -97,8 +100,8 @@
 <body>
 <section-header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <a class="navbar-brand" href="#">
-            <img src="static/images/logo.jpg" width="auto" height="72px" alt="">
+        <a class="navbar-brand" href="/">
+            <img src="static/images/logo.jpg" width="auto" height="72px" alt="Home">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,13 +111,13 @@
         <div id="navbarContent" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <!--                <li class="nav-item">-->
                 <!--                    <a class="nav-link" href="#">Product</a>-->
                 <!--                </li>-->
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact">Contact</a>
                 </li>
                 <!--                <li class="nav-item">-->
                 <!--                    <a class="nav-link" href="#">Services</a>-->
@@ -306,9 +309,12 @@
                     <div class="col-12">
                         <div class="row">
                             <div class="col-12">
-                                <img class="img-full-width d-block d-lg-none"
-                                     src="static/images/DSC_3293_md.jpg">
-                                <img class="img-full-width d-none d-lg-block" src="static/images/DSC_3293_lg.jpg">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="static/images/DSC_3293_xxl.jpg">
+                                    <source media="(min-width: 992px)" srcset="static/images/DSC_3293_lg.jpg">
+                                    <source media="(min-width: 576px)" srcset="static/images/DSC_3293_md.jpg">
+                                    <img src="static/images/DSC_3293_sm.jpg" class="img-full-width" alt="">
+                                </picture>
                             </div>
                         </div>
                         <div class="row">
@@ -325,9 +331,9 @@
                 </div>
                 <div class="row page-section-lg position-relative py-lg-12">
                     <img class="img-right-lg-absolute img-standard-height d-none d-lg-block"
-                         src="static/images/ellipse.png">
+                         src="static/images/ellipse.png" alt="">
                     <div class="col-lg-6 page-section-md">
-                        <img class="img-standard-width" src="static/images/e4.jpg">
+                        <img class="img-standard-width" src="static/images/e4.jpg" alt="">
                     </div>
                     <div class="col-lg-5 offset-lg-1 align-self-center page-section-md">
                         <div class="text-section">
@@ -397,8 +403,9 @@
                         <div class="row">
                             <div class="col-lg-4 text-center">
                                 <div class="technology-logo-container">
-                                    <a href="https://golang.org/" target="_blank"> <img src="static/images/go.jpg"
-                                                                                        alt=""></a>
+                                    <a href="https://golang.org/" target="_blank" rel=”noopener”> <img
+                                            src="static/images/go.jpg"
+                                            alt="golang"></a>
                                 </div>
                                 <div class="text-section text-section-small">
                                 <span>
@@ -408,8 +415,8 @@
                             </div>
                             <div class="col-lg-4 text-center">
                                 <div class="technology-logo-container">
-                                    <a href="https://www.python.org/" target="_blank"> <img
-                                            src="static/images/python.jpg" alt=""></a>
+                                    <a href="https://www.python.org/" target="_blank" rel=”noopener”> <img
+                                            src="static/images/python.jpg" alt="python"></a>
                                 </div>
                                 <div class="text-section text-section-small">
                                 <span>
@@ -419,8 +426,9 @@
                             </div>
                             <div class="col-lg-4 text-center">
                                 <div class="technology-logo-container">
-                                    <a href="https://kubernetes.io/" target="_blank"> <img src="static/images/k8s.jpg"
-                                                                                           alt=""></a>
+                                    <a href="https://kubernetes.io/" target="_blank" rel=”noopener noreferrer”> <img
+                                            src="static/images/k8s.jpg"
+                                            alt="kubernetes"></a>
                                 </div>
                                 <div class="text-section text-section-small">
                                 <span>
@@ -445,7 +453,7 @@
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-10 col-lg-4 col-lg-offset-4 py-5 py-lg-0">
-                                <a class="btn btn-ice btn-block" href="contact.html" role="button">Contact</a>
+                                <a class="btn btn-ice btn-block" href="contact" role="button">Contact</a>
                             </div>
                         </div>
                         <!--                        <div class="row justify-content-center">-->
