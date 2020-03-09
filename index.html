@@ -99,37 +99,35 @@
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/site.css" rel="stylesheet">
 
-    <title>Icetek</title>
+    <title>Icetek | Hot technologies served cool</title>
 </head>
 <body>
-<section-header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <a class="navbar-brand" href="/">
-            <img src="static/images/logo.jpg" width="auto" height="72px" alt="Home">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<header class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <a class="navbar-brand" href="/">
+        <img src="static/images/logo.jpg" width="auto" height="100%" alt="Home">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div id="navbarContent" class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <!--                <li class="nav-item">-->
-                <!--                    <a class="nav-link" href="#">Product</a>-->
-                <!--                </li>-->
-                <li class="nav-item">
-                    <a class="nav-link" href="contact">Contact</a>
-                </li>
-                <!--                <li class="nav-item">-->
-                <!--                    <a class="nav-link" href="#">Services</a>-->
-                <!--                </li>-->
-            </ul>
-        </div>
-    </nav>
-</section-header>
+    <div id="navbarContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="products">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</header>
 <main>
     <div class="container-fluid page-container">
         <div class="row main-section">
@@ -323,7 +321,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-8 offset-lg-1">
-                                <div class="text-section">
+                                <div class="text-section mt-9 mb-0">
                                     <h2 class="section-header">We are the Team</h2>
                                     <span>
                                 We’re a group of seasoned engineers sharing a passion for software craftsmanship. Years of working together allowed us to form an agile and swift team, able to implement new technologies at a rapid pace.
@@ -344,7 +342,7 @@
                         </picture>
                     </div>
                     <div class="col-lg-5 offset-lg-1 align-self-center page-section-md">
-                        <div class="text-section">
+                        <div class="text-section mb-0">
                             <h2 class="section-header">Engineers with a capital E</h2>
                             <span>
                                         A field tested task force, capable of carrying a project through its whole lifetime. From the architectural design, through implementation up until delivery - our know-how will help to smooth out the rough ride.
@@ -356,7 +354,7 @@
                     <div class="d-flex flex-column col-lg-6 order-2 order-lg-1">
                         <div class="row align-items-center flex-grow-1">
                             <div class="col-12">
-                                <div class="text-section">
+                                <div class="text-section mb-0">
                                     <h2 class="section-header">Crossing new frontiers</h2>
                                     <span>
                                  Keeping up with the latest and greatest in technology can pose a challenge. Our experience in both startups and large scale outsourcing companies taught us how to become conscious early adopters of new technologies.
@@ -398,7 +396,7 @@
                         </div>
                         <div class="row flex-grow-1 page-section-md">
                             <div class="col-12 align-self-center">
-                                <div class="text-section">
+                                <div class="text-section mb-0">
                                     <h2 class="section-header">Straight to the point</h2>
                                     <span>
                                                 Let’s not beat around the bush - transparent and open communication is necessary to create healthy relationships inside the team. We believe that sincerity is the way to maintain an efficient software development process.
@@ -416,22 +414,33 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4 text-center">
+                            <div class="col-lg-4 col-md-6 text-center">
                                 <div class="technology-logo-container">
-                                    <a href="https://golang.org/" target="_blank" rel=”noopener”> <img
-                                            src="static/images/go.jpg"
-                                            alt="golang"></a>
+                                    <a href="https://kubernetes.io/" target="_blank" rel=”noopener”>
+                                        <picture>
+                                            <source media="(min-width: 992px)" srcset="static/images/k8s2.jpg">
+                                            <source media="(min-width: 768px)" srcset="static/images/k8s1.jpg">
+                                            <source srcset="static/images/k8s2.jpg">
+                                            <img src="static/images/k8s2.jpg" alt="kubernetes">
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div class="text-section text-section-small">
                                 <span>
-                                    Has been around for a hot minute, but recent years saw significant increase in its popularity. Readable and concise code paired with focus on performant networking and multiprocessing has made Go one of the most sought-after technologies at the moment.
+                                    Originated at Google, now developed by Cloud Native Computing Foundation, Kubernetes has become the go-to solution for running containerized apps. When it comes to deploying and managing cloud applications at scale, Kubernetes has become the de facto industry standard.
                                 </span>
                                 </div>
                             </div>
-                            <div class="col-lg-4 text-center">
+                            <div class="col-lg-4 col-md-6 text-center">
                                 <div class="technology-logo-container">
-                                    <a href="https://www.python.org/" target="_blank" rel=”noopener”> <img
-                                            src="static/images/python.jpg" alt="python"></a>
+                                    <a href="https://www.python.org/" target="_blank" rel=”noopener”>
+                                        <picture>
+                                            <source media="(min-width: 992px)" srcset="static/images/python2.jpg">
+                                            <source media="(min-width: 768px)" srcset="static/images/python1.jpg">
+                                            <source srcset="static/images/python2.jpg">
+                                            <img src="static/images/python.jpg" alt="python">
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div class="text-section text-section-small">
                                 <span>
@@ -439,15 +448,20 @@
                                 </span>
                                 </div>
                             </div>
-                            <div class="col-lg-4 text-center">
-                                <div class="technology-logo-container">
-                                    <a href="https://kubernetes.io/" target="_blank" rel=”noopener noreferrer”> <img
-                                            src="static/images/k8s.jpg"
-                                            alt="kubernetes"></a>
+                            <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
+                                <div class="technology-logo-container go-logo-container">
+                                    <a href="https://golang.org/" target="_blank" rel=”noopener”>
+                                        <picture>
+                                            <source media="(min-width: 992px)" srcset="static/images/go2.jpg">
+                                            <source media="(min-width: 768px)" srcset="static/images/go1.jpg">
+                                            <source srcset="static/images/go2.jpg">
+                                            <img src="static/images/go.jpg" alt="golang">
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div class="text-section text-section-small">
                                 <span>
-                                    Originated at Google, now developed by Cloud Native Computing Foundation, Kubernetes has become the go-to solution for running containerized apps. When it comes to deploying and managing cloud applications at scale, Kubernetes has become the de facto industry standard.
+                                    Has been around for a hot minute, but recent years saw significant increase in its popularity. Readable and concise code paired with focus on performant networking and multiprocessing has made Go one of the most sought-after technologies at the moment.
                                 </span>
                                 </div>
                             </div>
@@ -458,7 +472,7 @@
                     <div class="col-lg-8 offset-lg-2">
                         <div class="row">
                             <div class="col-12">
-                                <div class="text-section text-center">
+                                <div class="text-section text-center mb-7">
                                     <h2 class="section-header">Check our stuff</h2>
                                     <span>
                                 We are not your usual software house. We are a team of most experienced individuals to help you in your most challenging tasks.
@@ -467,21 +481,16 @@
                             </div>
                         </div>
                         <div class="row justify-content-center">
-                            <div class="col-10 col-lg-4 col-lg-offset-4 py-5 py-lg-0">
+                            <div class="col-md-4 pb-5 pb-md-0">
+                                <a class="btn btn-ice btn-block" href="products" role="button">Products</a>
+                            </div>
+                            <div class="col-md-4 pb-5 pb-md-0">
+                                <a class="btn btn-ice btn-block" href="services" role="button">Services</a>
+                            </div>
+                            <div class="col-md-4 pb-5 pb-md-0">
                                 <a class="btn btn-ice btn-block" href="contact" role="button">Contact</a>
                             </div>
                         </div>
-                        <!--                        <div class="row justify-content-center">-->
-                        <!--                            <div class="col-10 col-lg-4 py-5 py-lg-0">-->
-                        <!--                                <button type="button" class="btn btn-ice btn-block">Product</button>-->
-                        <!--                            </div>-->
-                        <!--                            <div class="col-10 col-lg-4 py-5 py-lg-0">-->
-                        <!--                                <button type="button" class="btn btn-ice btn-block">Contact</button>-->
-                        <!--                            </div>-->
-                        <!--                            <div class="col-10 col-lg-4 py-5 py-lg-0">-->
-                        <!--                                <button type="button" class="btn btn-ice btn-block">Services</button>-->
-                        <!--                            </div>-->
-                        <!--                        </div>-->
                     </div>
                 </div>
             </div>
