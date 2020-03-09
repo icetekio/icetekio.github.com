@@ -98,39 +98,37 @@
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/site.css" rel="stylesheet">
 
-    <title>Contact</title>
+    <title>Icetek | drop us a line</title>
 </head>
 <body>
-<section-header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <a class="navbar-brand" href="/">
-            <img src="static/images/logo.jpg" width="auto" height="72px" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<header class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <a class="navbar-brand" href="/">
+        <img src="static/images/logo.jpg" width="auto" height="100%" alt="Home">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div id="navbarContent" class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <!--                <li class="nav-item">-->
-                <!--                    <a class="nav-link" href="#">Product</a>-->
-                <!--                </li>-->
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <!--                <li class="nav-item">-->
-                <!--                    <a class="nav-link" href="#">Services</a>-->
-                <!--                </li>-->
-            </ul>
-        </div>
-    </nav>
-</section-header>
+    <div id="navbarContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="products">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="services">Services</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</header>
 <main>
-    <div class="container-fluid page-container position-relative">
+    <div class="container-fluid page-container container-no-scroll-lg position-relative">
         <picture>
             <source media="(min-width: 1200px)" srcset="static/images/spaceship_s3.jpg">
             <source media="(min-width: 768px)" srcset="static/images/spaceship_s2.jpg">
@@ -138,14 +136,14 @@
             <img class="img-full-width img-contact" src="static/images/spaceship_s2.jpg" alt="">
         </picture>
         <div class="row">
-            <div class="col-lg-5 bg-white px-8 contact-card">
+            <div class="col-lg-5 bg-white px-md-8 py-8 contact-card">
                 <div class="text-section text-section-contact">
                     <h1 class="section-header">Contact us:</h1>
                     <span>
                         If you believe that our expertise would be helpful with your project or if you simply want to learn more about Icetek, don’t hesitate to drop us a line.
                     </span>
                 </div>
-                <div class="text-section">
+                <div class="text-section text-section-contact">
                     <a class="font-weight-bold" href="mailto:hello@icetek.io">hello@icetek.io</a>
                 </div>
                 <div class="social-links">
