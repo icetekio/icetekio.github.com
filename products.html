@@ -97,6 +97,7 @@
 
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/site.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
     <title>IceCI | Kubernetes based continuous integration system</title>
 </head>
@@ -130,7 +131,7 @@
 <main>
     <div class="container-fluid page-container position-relative">
         <div class="row page-section-lg">
-            <div class="col-lg-6 page-section-md">
+            <div  class="col-lg-6 page-section-md">
                 <picture>
                     <source media="(min-width: 1200px)" srcset="static/images/iceci2.jpg">
                     <source srcset="static/images/iceci1.jpg">
@@ -139,17 +140,18 @@
                 </picture>
             </div>
             <div class="col-lg-5 offset-lg-1 d-flex flex-column">
-                <div class="row flex-grow-1 page-section-md">
+                <div data-aos="fade-up" class="row flex-grow-1 page-section-md">
                     <div class="col-12 align-self-center">
-                        <div class="text-section text-section-product mb-0">
-                            <h1 class="section-header color-grey-1">Fresh tech with a familiar flavour</h1>
+                        <div class="text-section mb-0">
+                            <h1 class="section-header section-header-grey section-header-md">Fresh tech with a familiar
+                                flavour</h1>
                             <span>
                                 IceCI is designed for Kubernetes from the ground up, while simultaneously keeping the user experience in line with existing container-based systems that you’re used to. Reap the benefits of Kubernetes while working with a user-friendly UI, without having to get into the nitty and gritty interiors.
                             </span>
                         </div>
                     </div>
                 </div>
-                <div class="row d-block d-md-none">
+                <div data-aos="fade-up" class="row d-block d-md-none">
                     <div class="col-lg-12 page-section-md">
                         <img class="img-full-width"
                              src="static/images/circles.jpg" alt="">
@@ -157,17 +159,17 @@
                 </div>
             </div>
         </div>
-        <div class="row page-section-md">
+        <div data-aos="fade-up" data-aos-id="animation1" class="row page-section-md">
             <div id="parent" class="col-12 position-relative mt-md-4">
                 <img class="img-ellipse-product" src="static/images/ellipse.png" alt="">
                 <svg id="svg" class="d-none d-md-block" xmlns="http://www.w3.org/2000/svg">
                     <line id="line1" x1="0" y1="0" x2="0" y2="0" stroke="black"/>
                     <line id="line2" x1="0" y1="0" x2="0" y2="0" stroke="black"/>
                 </svg>
-                <div class="row page-section-lg">
+                <div data-aos="fade-up" class="disable-animation-md row page-section-lg">
                     <div class="col-lg-6 col-md-9 order-lg-1 order-md-2 d-flex flex-column align-items-center">
-                        <div class="text-section text-section-product">
-                            <h2 class="section-header">Set it up any way you like</h2>
+                        <div class="text-section">
+                            <h2 class="section-header section-header-md">Set it up any way you like</h2>
                             <span>
                         Whether you prefer to have a slick UI or rather use kubectl, we’ve got you covered. The modular design of IceCI allows for mixing and matching the components you deploy, so the application is tailored to your needs.
                     </span>
@@ -178,26 +180,26 @@
                         <img id="circleg1" class="img-circle-grey" src="static/images/ellipse2.png" alt="">
                     </div>
                 </div>
-                <div class="row page-section-lg">
+                <div data-aos="fade-up" class="disable-animation-md row page-section-lg">
                     <div id="circleContainer2" class="circle-container col-lg-6 col-md-3">
                         <img id="circleb2" class="img-circle-blue" src="static/images/ellipse1.png" alt="">
                         <img id="circleg2" class="img-circle-grey" src="static/images/ellipse2.png" alt="">
                     </div>
                     <div class="col-lg-6 col-md-9 d-flex flex-column align-items-center">
-                        <div class="text-section text-section-product">
-                            <h2 class="section-header">Separation of concerns</h2>
+                        <div class="text-section">
+                            <h2 class="section-header section-header-md">Separation of concerns</h2>
                             <span>
                         If you choose to, you can customize how IceCI is deployed, to make it fit to your architecture and infrastructure layout. When it comes to writing pipelines, iceCI provides a layer of abstraction over Kubernetes, to let you focus on integrating your apps.
                     </span>
                         </div>
                     </div>
                 </div>
-                <div class="row page-section-lg">
+                <div data-aos="fade-up" class="disable-animation-md row page-section-lg">
                     <div class="col-lg-6 col-md-9 order-lg-1 order-md-2 d-flex flex-column align-items-center">
-                        <div class="text-section text-section-product mb-0">
-                            <h2 class="section-header">Air gap ready</h2>
+                        <div class="text-section mb-0">
+                            <h2 class="section-header section-header-md">Air gap ready</h2>
                             <span>
-                        As long as IceCI has access to a Docker registry - it’s good to go. You can use Docker Hub or - if you prefer - self-host a registry to create a fully air-gapped system. Contain your CI in you infrastructure - no outside network access is needed.
+                        As long as IceCI has access to a Docker registry - it’s good to go. You can use Docker Hub or - if you prefer - self-host a registry to create a fully air-gapped system. Contain your CI in your infrastructure - no outside network access is needed.
                     </span>
                         </div>
                     </div>
@@ -208,12 +210,12 @@
                 </div>
             </div>
         </div>
-        <div class="row page-section-lg page-section-md">
+        <div data-aos="fade-up" class="row page-section-lg page-section-md">
             <div class="col-12">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
-                        <div class="text-section text-section-product text-center">
-                            <h2 class="section-header color-grey-1">Sounds interesting?</h2>
+                        <div class="text-section text-center">
+                            <h2 class="section-header section-header-grey section-header-md">Sounds interesting?</h2>
                             <span>
                         Visit  <a href="https://github.com/iceci/" target="_blank" rel=”noopener”>https://github.com/iceci/</a> for more information!
                     </span>
@@ -263,25 +265,36 @@ function drawLines(){
     var x3 = div3.offset().left - pleft + (div3.width()/2);
     var y3 = div3.offset().top - ptop + (div3.height()/2);
 
-    line1.attr('x1',x1).attr('y1',y1).attr('x2',x2).attr('y2',y2);
+    line1.attr('x1',x2).attr('y1',y2).attr('x2',x1).attr('y2',y1);
     line2.attr('x1',x1).attr('y1',y1).attr('x2',x3).attr('y2',y3);
 }
-$(function(){
-    drawLines()
-});
-
-$(window).on('load', function () {
-    drawLines()
-});
-
+</script>
+<script>
+function resetAnimation(element){
+    element.removeClass("animate");
+    element.width();
+    element.addClass("animate");
+}
+</script>
+<script>
 $(window).on('resize', function () {
     drawLines()
 });
+</script>
+<script>
+$(document).on('aos:in:animation1', function() {
+    drawLines();
+    resetAnimation($("#parent"));
+});
 
 
-
-
-
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+     duration: 1000,
+     once: true
+  });
 </script>
 </body>
 </html>
