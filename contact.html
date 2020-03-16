@@ -97,6 +97,7 @@
 
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/site.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
     <title>Icetek | drop us a line</title>
 </head>
@@ -136,9 +137,9 @@
             <img class="img-full-width img-contact" src="static/images/spaceship_s2.jpg" alt="">
         </picture>
         <div class="row">
-            <div class="col-lg-5 bg-white px-md-8 py-8 contact-card">
+            <div data-aos="fade-up" class="col-lg-5 bg-white px-md-8 py-8 contact-card">
                 <div class="text-section text-section-contact">
-                    <h1 class="section-header">Contact us:</h1>
+                    <h1 class="section-header section-header-grey section-header-lg">Contact us:</h1>
                     <span>
                         If you believe that our expertise would be helpful with your project or if you simply want to learn more about Icetek, don’t hesitate to drop us a line.
                     </span>
@@ -170,5 +171,12 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+     duration: 1000,
+     once: true
+  });
+</script>
 </body>
 </html>
