@@ -17347,7 +17347,7 @@ strong {
   text-align: center;
 }
 .navbar .navbar-brand {
-  padding: 4px 0;
+  padding: 10px 0;
   height: 64px;
 }
 .navbar .navbar-toggler {
@@ -17724,11 +17724,17 @@ strong {
   .logo-animated {
     width: calc(100% + 139px*2);
     margin-left: -139px;
+    font-size: calc((100vw - var(--scroll-width))/7);
   }
 }
 .logo-animated div {
   line-height: 1.2;
   margin-top: -4%;
+}
+@media (min-width: 992px) {
+  .logo-animated div {
+    margin-top: -2.8%;
+  }
 }
 .logo-animated:nth-child(even) div {
   animation: logo-animation1 4s ease-in-out 0s infinite;
@@ -17737,6 +17743,13 @@ strong {
 .logo-animated:nth-child(odd) div {
   animation: logo-animation2 4s ease-in-out 0s infinite;
   animation-direction: alternate;
+}
+.logo-animated .no-animation {
+  font-family: Icetek-Full;
+  animation: none !important;
+  font-variation-settings: "wdth" 281;
+  color: #000;
+  margin-left: 0.15%;
 }
 
 @media (min-width: 992px) {
