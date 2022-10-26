@@ -1,119 +1,51 @@
-/**
- * @license
- * MyFonts Webfont Build ID 3874010, 2020-03-01T04:09:20-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed ../static/fonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: Epura-Book by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/book/
- * 
- * Webfont: Epura-Regular by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/regular/
- * 
- * Webfont: Epura-Light by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/light/
- * 
- * Webfont: Epura-SemiBoldItalic by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/semibold-italic/
- * 
- * Webfont: Epura-Medium by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/medium/
- * 
- * Webfont: Epura-ExtraBoldItalic by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/extrabold-italic/
- * 
- * Webfont: Epura-BoldItalic by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/bold-italic/
- * 
- * Webfont: Epura-BooktItalic by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/book-italic/
- * 
- * Webfont: Epura-ExtraLight by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/extra-light/
- * 
- * Webfont: Epura-ExtraLightItalic by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/extra-light-italic/
- * 
- * Webfont: Epura-MediumItalic by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/medium-italic/
- * 
- * Webfont: Epura-LightItalic by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/light-italic/
- * 
- * Webfont: Epura-RegularItalic by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/regular-italic/
- * 
- * Webfont: Epura-SemiBold by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/semibold/
- * 
- * Webfont: Epura-ExtraBold by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/extrabold/
- * 
- * Webfont: Epura-Bold by Nova Type Foundry
- * URL: https://www.myfonts.com/fonts/nova-type-foundry/epura/bold/
- * 
- * 
- * ../static/fonts copyright: Copyright &#x00A9; 2017 by Luis Bandovas. All rights reserved.
- * 
- * © 2020 MyFonts Inc
-*/
+  
+@font-face {font-family: 'Epura-Book';src: url('../fonts/3B1CDA_0_0.eot');src: url('../fonts/3B1CDA_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_0_0.woff2') format('woff2'),url('../fonts/3B1CDA_0_0.woff') format('woff'),url('../fonts/3B1CDA_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-Regular';src: url('../fonts/3B1CDA_1_0.eot');src: url('../fonts/3B1CDA_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_1_0.woff2') format('woff2'),url('../fonts/3B1CDA_1_0.woff') format('woff'),url('../fonts/3B1CDA_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-Light';src: url('../fonts/3B1CDA_2_0.eot');src: url('../fonts/3B1CDA_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_2_0.woff2') format('woff2'),url('../fonts/3B1CDA_2_0.woff') format('woff'),url('../fonts/3B1CDA_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-SemiBoldItalic';src: url('../fonts/3B1CDA_3_0.eot');src: url('../fonts/3B1CDA_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_3_0.woff2') format('woff2'),url('../fonts/3B1CDA_3_0.woff') format('woff'),url('../fonts/3B1CDA_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-Medium';src: url('../fonts/3B1CDA_4_0.eot');src: url('../fonts/3B1CDA_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_4_0.woff2') format('woff2'),url('../fonts/3B1CDA_4_0.woff') format('woff'),url('../fonts/3B1CDA_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-ExtraBoldItalic';src: url('../fonts/3B1CDA_5_0.eot');src: url('../fonts/3B1CDA_5_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_5_0.woff2') format('woff2'),url('../fonts/3B1CDA_5_0.woff') format('woff'),url('../fonts/3B1CDA_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-BoldItalic';src: url('../fonts/3B1CDA_6_0.eot');src: url('../fonts/3B1CDA_6_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_6_0.woff2') format('woff2'),url('../fonts/3B1CDA_6_0.woff') format('woff'),url('../fonts/3B1CDA_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-BooktItalic';src: url('../fonts/3B1CDA_7_0.eot');src: url('../fonts/3B1CDA_7_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_7_0.woff2') format('woff2'),url('../fonts/3B1CDA_7_0.woff') format('woff'),url('../fonts/3B1CDA_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-ExtraLight';src: url('../fonts/3B1CDA_8_0.eot');src: url('../fonts/3B1CDA_8_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_8_0.woff2') format('woff2'),url('../fonts/3B1CDA_8_0.woff') format('woff'),url('../fonts/3B1CDA_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-ExtraLightItalic';src: url('../fonts/3B1CDA_9_0.eot');src: url('../fonts/3B1CDA_9_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_9_0.woff2') format('woff2'),url('../fonts/3B1CDA_9_0.woff') format('woff'),url('../fonts/3B1CDA_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-MediumItalic';src: url('../fonts/3B1CDA_A_0.eot');src: url('../fonts/3B1CDA_A_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_A_0.woff2') format('woff2'),url('../fonts/3B1CDA_A_0.woff') format('woff'),url('../fonts/3B1CDA_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-LightItalic';src: url('../fonts/3B1CDA_B_0.eot');src: url('../fonts/3B1CDA_B_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_B_0.woff2') format('woff2'),url('../fonts/3B1CDA_B_0.woff') format('woff'),url('../fonts/3B1CDA_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-RegularItalic';src: url('../fonts/3B1CDA_C_0.eot');src: url('../fonts/3B1CDA_C_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_C_0.woff2') format('woff2'),url('../fonts/3B1CDA_C_0.woff') format('woff'),url('../fonts/3B1CDA_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-SemiBold';src: url('../fonts/3B1CDA_D_0.eot');src: url('../fonts/3B1CDA_D_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_D_0.woff2') format('woff2'),url('../fonts/3B1CDA_D_0.woff') format('woff'),url('../fonts/3B1CDA_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-ExtraBold';src: url('../fonts/3B1CDA_E_0.eot');src: url('../fonts/3B1CDA_E_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_E_0.woff2') format('woff2'),url('../fonts/3B1CDA_E_0.woff') format('woff'),url('../fonts/3B1CDA_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Epura-Bold';src: url('../fonts/3B1CDA_F_0.eot');src: url('../fonts/3B1CDA_F_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3B1CDA_F_0.woff2') format('woff2'),url('../fonts/3B1CDA_F_0.woff') format('woff'),url('../fonts/3B1CDA_F_0.ttf') format('truetype');}
 
+@font-face {font-family: 'Icetek';src: url("../fonts/iceGX.ttf") format('truetype'); font-display: block;}
 
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("https://hello.myfonts.net/count/3b1cda");
-
-  
-@font-face {font-family: 'Epura-Book';src: url('../static/fonts/3B1CDA_0_0.eot');src: url('../static/fonts/3B1CDA_0_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_0_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_0_0.woff') format('woff'),url('../static/fonts/3B1CDA_0_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-Regular';src: url('../static/fonts/3B1CDA_1_0.eot');src: url('../static/fonts/3B1CDA_1_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_1_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_1_0.woff') format('woff'),url('../static/fonts/3B1CDA_1_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-Light';src: url('../static/fonts/3B1CDA_2_0.eot');src: url('../static/fonts/3B1CDA_2_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_2_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_2_0.woff') format('woff'),url('../static/fonts/3B1CDA_2_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-SemiBoldItalic';src: url('../static/fonts/3B1CDA_3_0.eot');src: url('../static/fonts/3B1CDA_3_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_3_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_3_0.woff') format('woff'),url('../static/fonts/3B1CDA_3_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-Medium';src: url('../static/fonts/3B1CDA_4_0.eot');src: url('../static/fonts/3B1CDA_4_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_4_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_4_0.woff') format('woff'),url('../static/fonts/3B1CDA_4_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-ExtraBoldItalic';src: url('../static/fonts/3B1CDA_5_0.eot');src: url('../static/fonts/3B1CDA_5_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_5_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_5_0.woff') format('woff'),url('../static/fonts/3B1CDA_5_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-BoldItalic';src: url('../static/fonts/3B1CDA_6_0.eot');src: url('../static/fonts/3B1CDA_6_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_6_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_6_0.woff') format('woff'),url('../static/fonts/3B1CDA_6_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-BooktItalic';src: url('../static/fonts/3B1CDA_7_0.eot');src: url('../static/fonts/3B1CDA_7_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_7_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_7_0.woff') format('woff'),url('../static/fonts/3B1CDA_7_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-ExtraLight';src: url('../static/fonts/3B1CDA_8_0.eot');src: url('../static/fonts/3B1CDA_8_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_8_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_8_0.woff') format('woff'),url('../static/fonts/3B1CDA_8_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-ExtraLightItalic';src: url('../static/fonts/3B1CDA_9_0.eot');src: url('../static/fonts/3B1CDA_9_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_9_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_9_0.woff') format('woff'),url('../static/fonts/3B1CDA_9_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-MediumItalic';src: url('../static/fonts/3B1CDA_A_0.eot');src: url('../static/fonts/3B1CDA_A_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_A_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_A_0.woff') format('woff'),url('../static/fonts/3B1CDA_A_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-LightItalic';src: url('../static/fonts/3B1CDA_B_0.eot');src: url('../static/fonts/3B1CDA_B_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_B_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_B_0.woff') format('woff'),url('../static/fonts/3B1CDA_B_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-RegularItalic';src: url('../static/fonts/3B1CDA_C_0.eot');src: url('../static/fonts/3B1CDA_C_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_C_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_C_0.woff') format('woff'),url('../static/fonts/3B1CDA_C_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-SemiBold';src: url('../static/fonts/3B1CDA_D_0.eot');src: url('../static/fonts/3B1CDA_D_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_D_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_D_0.woff') format('woff'),url('../static/fonts/3B1CDA_D_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-ExtraBold';src: url('../static/fonts/3B1CDA_E_0.eot');src: url('../static/fonts/3B1CDA_E_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_E_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_E_0.woff') format('woff'),url('../static/fonts/3B1CDA_E_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Epura-Bold';src: url('../static/fonts/3B1CDA_F_0.eot');src: url('../static/fonts/3B1CDA_F_0.eot?#iefix') format('embedded-opentype'),url('../static/fonts/3B1CDA_F_0.woff2') format('woff2'),url('../static/fonts/3B1CDA_F_0.woff') format('woff'),url('../static/fonts/3B1CDA_F_0.ttf') format('truetype');}
-
-@font-face {font-family: 'Icetek';src: url("../static/fonts/iceGX.ttf") format('truetype'); font-display: block;}
-
-@font-face {font-family: 'Icetek-Full';src: url("../static/fonts/Icetek_newGX.ttf") format('truetype'); font-display: block;}
+@font-face {font-family: 'Icetek-Full';src: url("../fonts/Icetek_newGX.ttf") format('truetype'); font-display: block;}
