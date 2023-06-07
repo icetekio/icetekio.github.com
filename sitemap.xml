@@ -1,58 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://icetek.io/</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
+        <lastmod>2023-06-06T11:52:33+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
         <loc>https://icetek.io/products</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
+        <lastmod>2023-06-06T11:52:33+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://icetek.io/services</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
+        <lastmod>2023-06-06T11:52:33+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://icetek.io/contact</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
+        <lastmod>2023-06-06T11:52:33+00:00</lastmod>
         <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://icetek.io/blog</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://icetek.io/blog/how-to-connect-jetson-nano-to-kubernetes-using-k3s-and-k3sup</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
-        <priority>0.64</priority>
-    </url>
-    <url>
-        <loc>https://icetek.io/blog/understanding-how-docker-multi-arch-images-work</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
-        <priority>0.64</priority>
-    </url>
-    <url>
-        <loc>https://icetek.io/blog/preparing-for-ckad</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
-        <priority>0.64</priority>
-    </url>
-    <url>
-        <loc>https://icetek.io/blog/building-a-kubernetes-cluster-on-raspberry-pi-running-ubuntu-server</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
-        <priority>0.64</priority>
-    </url>
-    <url>
-        <loc>https://icetek.io/blog/new-in-kubernetes-1-18-kubectl-alpha-debug</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
-        <priority>0.64</priority>
-    </url>
-    <url>
-        <loc>https://icetek.io/blog/porting-iceci-to-arm</loc>
-        <lastmod>2022-10-26T11:52:33+00:00</lastmod>
-        <priority>0.64</priority>
     </url>
 </urlset>
