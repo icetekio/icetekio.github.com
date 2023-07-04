@@ -18560,3 +18560,29 @@ strong {
 .middle {
       margin: auto;
 }
+.center-aling{
+      justify-content: center;
+}
+
+.buttons-wrapper {
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  gap:20px;
+  justify-content: center;
+}
+
+.no-margin {
+  margin:0 !important;
+}
+
+@media (min-width: 576px) {
+.buttons-wrapper {
+  flex-direction:column;
+  }
+}
+@media (min-width: 992px) {
+.buttons-wrapper {
+  flex-direction:row;
+  }
+}
